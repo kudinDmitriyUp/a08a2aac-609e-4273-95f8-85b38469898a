@@ -24,8 +24,6 @@ export default function LandingPage() {
       cardStyle="solid-bordered"
       primaryButtonStyle="layered-depth"
       secondaryButtonStyle="glass"
-      showBlurBottom={false}
-      headingFontWeight="medium"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline

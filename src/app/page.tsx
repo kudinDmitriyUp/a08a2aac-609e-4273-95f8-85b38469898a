@@ -24,6 +24,8 @@ export default function LandingPage() {
       cardStyle="solid-bordered"
       primaryButtonStyle="layered-depth"
       secondaryButtonStyle="glass"
+      showBlurBottom={false}
+      headingFontWeight="normal"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
@@ -37,7 +39,6 @@ export default function LandingPage() {
             { name: "Contact", id: "contact" }
           ]}
           button={{ text: "Get Started", href: "contact" }}
-          className="rounded-full"
         />
       </div>
 

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -24,7 +24,6 @@ export default function LandingPage() {
       cardStyle="solid-bordered"
       primaryButtonStyle="layered-depth"
       secondaryButtonStyle="glass"
-      showBlurBottom={false}
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
